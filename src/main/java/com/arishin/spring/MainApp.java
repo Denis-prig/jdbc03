@@ -17,7 +17,7 @@ StudentJDBCTemplate studentJDBCTemplate =
 Student student = studentJDBCTemplate.getStudent(4);
 System.out.print("ID : " + student.getId() );
 System.out.print(", Name : " + student.getName() );
-System.out.print(", Age : " + student.getAge() );
+
 
 
 }
